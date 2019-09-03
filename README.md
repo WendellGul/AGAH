@@ -57,7 +57,7 @@ You will get the following help information:
 
 ### Train & Test
 
-Train and text:
+Train and test:
 ```shell
 python main.py train
 ```
