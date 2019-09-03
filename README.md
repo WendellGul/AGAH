@@ -1,15 +1,15 @@
-## Adversary Guided Asymmetric Hashing for Cross-Modal Retrieval
+# Adversary Guided Asymmetric Hashing for Cross-Modal Retrieval
 
 Code for the paper [Adversary Guided Asymmetric Hashing for Cross-Modal Retrieval](https://dl.acm.org/citation.cfm?doid=3323873.3325045) (ICMR 2019 Best Student Paper).
 
-### Requirements
+## Requirements
 
 * Python: 3.5+
 * PyTorch: 1.0.0+
 
-### Usage
+## Usage
 
-#### Help
+### Help
 
 ```shell
 python main.py help
@@ -55,7 +55,7 @@ You will get the following help information:
 ========================::HELP::=========================
 ```
 
-#### Train & Test
+### Train & Test
 
 Train and text:
 ```shell
@@ -67,19 +67,19 @@ For test only:
 python main.py test
 ```
 
-### Datasets
+## Datasets
 
--[] Comming soon
+Comming soon
 
-### Framework
+## Framework
 
 ![](img/framework.png)
 
-### Result
+## Result
 
 ![](img/result.png)
 
-### Citing AGAH
+## Citing AGAH
 
 ```
 @inproceedings{gu2019adversary,
