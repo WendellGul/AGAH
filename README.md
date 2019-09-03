@@ -4,8 +4,8 @@ Code for the paper [Adversary Guided Asymmetric Hashing for Cross-Modal Retrieva
 
 ## Requirements
 
-* Python: 3.5+
-* PyTorch: 1.0.0+
+* Python >= 3.5
+* PyTorch >= 1.0.0
 
 ## Usage
 
