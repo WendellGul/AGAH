@@ -69,7 +69,7 @@ python main.py test
 
 ## Datasets
 
-Comming soon
+Coming soon...
 
 ## Framework
 
