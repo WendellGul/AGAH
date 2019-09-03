@@ -24,11 +24,11 @@ You will get the following help information:
             python main.py help
     avaiable args (default value):
             load_model_path: None
-            pretrain_model_path: /data5/guwen/data/imagenet-vgg-f.mat
+            pretrain_model_path: ./data/imagenet-vgg-f.mat
             vis_env: None
             vis_port: 8097
             dataset: flickr25k
-            data_path: /data5/guwen/data/FLICKR-25K.mat
+            data_path: ./data/FLICKR-25K.mat
             db_size: 18015
             num_label: 24
             tag_dim: 1386
