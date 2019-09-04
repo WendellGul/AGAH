@@ -22,12 +22,10 @@ def train(**kwargs):
     if opt.vis_env:
         vis = Visualizer(opt.vis_env, port=opt.vis_port)
 
-    if opt.device is not None:
-        opt.device = torch.device(opt.device)
-    elif opt.gpus:
-        opt.device = torch.device(0)
-    else:
+    if opt.device is None or opt.device is 'cpu':
         opt.device = torch.device('cpu')
+    else:
+        opt.device = torch.device(opt.device)
 
     images, tags, labels = load_data(opt.data_path, type=opt.dataset)
 
